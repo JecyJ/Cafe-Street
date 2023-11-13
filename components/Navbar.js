@@ -57,7 +57,7 @@ const Navbar = () => {
                 exit={{ opacity: 0, x: '100%', transition: { duration: 1.5 } }}
                 className="fixed top-0 right-0 h-screen w-1/2 bg-[#2F2105] text-white z-50"
               >
-                <div className="flex mt-4 space-x-28 px-5">
+                <div className="flex mt-4 space-x-14 px-3">
                   <AiOutlineShoppingCart size={25} />
                   <AiOutlineClose onClick={handleClick} size={25} />
                 </div>
