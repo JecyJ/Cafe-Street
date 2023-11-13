@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import cafe from '@/images/logo.svg';
+import cafe from "../images/logo.svg";
 import { Dancing_Script } from 'next/font/google';
 import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineClose } from 'react-icons/ai';
 import { CgMenuHotdog } from 'react-icons/cg';
