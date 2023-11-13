@@ -1,13 +1,12 @@
 'use client'
 
 import Image from 'next/image';
-import cafe from "@/images/logo.svg";
+import cafe from "@/images/cafe.png";
 import { Dancing_Script } from 'next/font/google';
 import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineClose } from 'react-icons/ai';
 import { CgMenuHotdog } from 'react-icons/cg';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import useSWR from 'swr'
 
 const dancingscript = Dancing_Script({
   weights: ['700'],
