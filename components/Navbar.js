@@ -21,8 +21,8 @@ const Navbar = () => {
   };
 
   return (
-    <section className="fixed z-50 w-full h-auto py-3">
-      <div className="max-w-[400px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1100px] mx-auto flex justify-between items-center">
+    <section className="absolute z-50 w-full h-auto py-3">
+      <div className="max-w-[350px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1100px] mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-1">
           <Image src={cafe} alt="cafe" priority className="animate-bounce" />
           <h1 className={`text-3xl md:text-4xl ${dancingscript.className}`}>

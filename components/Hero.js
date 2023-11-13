@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="relative w-full h-full bg-[#fae5c2]">
       <Image src={nuts} alt="nuts" priority className="absolute right-0 top-[220px] md:top-0 w-[250px] md:w-[400px] h-[300px] lg:w-[500px] lg:h-[350px]" />
         <div className="relative z-10 grid md:grid-cols-12 w-full pt-24">
-            <div className="col-span-6 pb-7 md:pb-0 md:pl-4 max-w-[400px] md:max-w-[500px] m-auto">
+            <div className="col-span-6 pb-7 md:pb-0 md:pl-4 max-w-[350px] md:max-w-[500px] m-auto">
                 <h1 className="text-4xl lg:text-5xl font-bold leading-snug lg:leading-normal">Enjoy your <span className="text-[#FF902A]">coffee</span> before your activity</h1>
                 <p>Boost your productivity and build your mood with a glass of coffee in the morning </p>
                 <div className="flex items-center space-x-3">
